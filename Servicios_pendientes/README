@@ -3,13 +3,4 @@
 
 Este repositorio contiene un script automatizado en Python diseñado para procesar y consolidar los reportes de solicitudes de **servicios** que aún se encuentran pendientes de atención.
 
-## Requisitos
-
-* **Python 3.8** o superior.
-* Bibliotecas necesarias:
-    * `pandas` (para la manipulación y limpieza de datos).
-    * `openpyxl` (para la lectura y generación de archivos Excel).
-
-Puedes instalar todas las dependencias ejecutando:
-```bash
-pip install pandas openpyxl
+Se usa el excel obtenido de la query LOG_REQ_OC_REC_PU_ALL-2724463
