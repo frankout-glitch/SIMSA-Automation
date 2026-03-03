@@ -1,3 +1,3 @@
 # USD-recepcionado-SIMSA
 Permite obtener el total recepcionado en USD a partir del archivo obtenido directamente de Peoplesoft
-Se usa la Query LOG_JULIO_ORDEN_COMPRAS_2021-2724534
+Se usa el excel obtenido de la query LOG_JULIO_ORDEN_COMPRAS_2021-2724534
