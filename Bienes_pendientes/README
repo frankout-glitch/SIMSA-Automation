@@ -1,36 +1,4 @@
 RQ Bienes SIMSA Pendiente
 Este repositorio contiene el script para procesar reportes de solicitudes de bienes pendientes de atencion.
 
-Requisitos • Python 3.8 o superior • Bibliotecas utilizadas: • pandas (para manipulación de datos) • openpyxl (para leer/escribir archivos Excel)
-
-Puedes instalar las dependencias con:
-
-pip install pandas openpyxl
-
-Cómo ejecutar el script
-
-Una vez instaladas las dependencias, puedes ejecutar el script directamente desde la terminal con:
-
-python reporte_rq_bienes.py
-
-Cómo generar un archivo ejecutable (.exe)
-
-Si deseas usar este script sin necesidad de tener Python instalado, puedes convertirlo en un ejecutable con PyInstaller: 1. Instala PyInstaller:
-
-pip install pyinstaller 2. Ejecuta el siguiente comando:
-
-pyinstaller –onefile reporte_rq_bienes.py
-
-Esto generará un archivo ejecutable en la carpeta “dist” llamado reporte_rq_bienes.exe.
-
-Estructura esperada del archivo de entrada
-
-(Describe aquí el formato del Excel o CSV que usas, si aplica. Por ejemplo: debe tener columnas como RUC, Descripción, Cantidad, etc.)
-
-Salida
-
-El script genera un archivo Excel con el resumen consolidado, listo para su revisión o envío.
-
-Autor
-
-Franco Chávez
+Se usa el excel obtenido de la query LOG_REQ_OC_REC_PU_ALL-2724463
